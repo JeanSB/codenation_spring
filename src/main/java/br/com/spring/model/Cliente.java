@@ -2,6 +2,15 @@ package br.com.spring.model;
 
 import javax.persistence.*;
 
+/**
+ * 
+ * @author jeansb
+ *
+ *	Client -> Controller -> Service -> Repository
+ *
+ */
+
+
 @Entity
 @Table(name = "customer")
 public class Cliente {

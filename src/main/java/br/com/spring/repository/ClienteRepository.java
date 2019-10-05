@@ -7,5 +7,7 @@ import br.com.spring.model.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Long>{
+	
+	
 
 }
