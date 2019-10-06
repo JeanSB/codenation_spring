@@ -21,7 +21,7 @@ public class Cliente {
 	private Long id;
 	@Column
 	private String nome;
-	@Column(nullable = false)
+	@Column
 	private String loja;
 	@Column
 	private String email;
@@ -31,7 +31,8 @@ public class Cliente {
 	private String senha;
 	
 	public Cliente() {
-			}
+	
+	}
 
 	public Long getId() {
 		return id;
@@ -42,7 +43,7 @@ public class Cliente {
 	}
 
 	
-	public String Nome() {
+	public String getNome() {
 		return nome;
 	}
 

@@ -22,7 +22,7 @@ public class ClienteService {
 		return clienteRepository.findAll();
 	}
 	
-	public void cadastras(Cliente cliente) {
+	public void cadastrar(Cliente cliente) {
 		clienteRepository.save(cliente);
 	}
 	
